@@ -4,7 +4,7 @@
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch }) => {
-    const cacheBuster = `?t=${Date.now()}`;
+    const cacheBuster = `&t=${Date.now()}`;
     // 1. Your Google Sheet CSV URL (the one from "Publish to Web")
     const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR032ubZhNyO0rChS20l_SiUFZ5kv8P-0yVTw1pnqtYdUemtjFjQIBvNWsL0ZhQ7ioPdCOjWUqW-yXc/pub?output=csv' + cacheBuster;
     
