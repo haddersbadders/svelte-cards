@@ -30,7 +30,6 @@
 	},
 	"dependencies": {
 		"bulma": "^1.0.4",
-		"d3-scale": "^4.0.2",
-		"papaparse": "^5.5.3"
+		"d3-scale": "^4.0.2"
 	}
 }
